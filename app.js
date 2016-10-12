@@ -30,10 +30,10 @@ app.controller('mycontroller', ['$scope', '$http', function($scope, $http) {
         showIcon: false,
         showCheckbox: true,
         onNodeChecked: function(event, node) {
-            $scope.do_something('box checked');
+            $scope.do_something(node.text + ' box checked with id: ' + node.id);
         },
         onNodeUnchecked: function (event, node) {
-            $scope.do_something('box unchecked');
+            $scope.do_something(node.text + ' box unchecked with id: ' + node.id);
         }
     });
 

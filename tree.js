@@ -13,10 +13,12 @@ var defaultData = [
                 nodes: [
                     {
                         text: 'Grandchild 1',
+                        id: 'foo',
                         color: 'pink'
                     },
                     {
-                        text: 'Grandchild 2'
+                        text: 'Grandchild 2',
+                        id: 'foo'
                     }
                 ]
             },
@@ -28,9 +30,11 @@ var defaultData = [
                 nodes: [
                     {
                         text: 'Grandchild 1',
+                        id: 'bar'
                     },
                     {
-                        text: 'Grandchild 2'
+                        text: 'Grandchild 2',
+                        id: 'bar'
                     }
                 ]
             }
@@ -50,10 +54,12 @@ var defaultData = [
                 nodes: [
                     {
                         text: 'Grandchild 1',
-                        color: 'pink'
+                        id: 'foo',
+                        color: 'blue'
                     },
                     {
-                        text: 'Grandchild 2'
+                        text: 'Grandchild 2',
+                        id: 'foo'
                     }
                 ]
             },
@@ -65,9 +71,11 @@ var defaultData = [
                 nodes: [
                     {
                         text: 'Grandchild 1',
+                        id: 'bar'
                     },
                     {
-                        text: 'Grandchild 2'
+                        text: 'Grandchild 2',
+                        id: 'bar'
                     }
                 ]
             }
